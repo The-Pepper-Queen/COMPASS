@@ -2,6 +2,7 @@
 .title {
       margin-left:15%;
       padding:20px;
+      text-align: center;
     }
 
 /* Add a black background color to the top navigation */
@@ -20,7 +21,7 @@
 
 /* The navigation menu links */
 .sidenav a {
-    padding: 6px 8px 6px 16px;
+    padding: 10px;
     text-decoration: none;
     font-size: 25px;
     color: #000000;
@@ -29,7 +30,7 @@
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-    color: #f0ddbf;
+    background-color:	#d0dddf;
 }
 
 
