@@ -62,8 +62,10 @@ ol, ul {
 }
 
 .bodytext {
-  margin-left:15%;
+  margin-left:25%;
+  margin-right:10%;
   padding:20px;
+  background-color: rgba(0,0,0,0.5)
 }
 
 
@@ -77,5 +79,5 @@ ol, ul {
 }
 
 .homepage {
-  background-image: url("images/maxresdefault.jpg")
+  background-image: url("images/pebbles-801952_1280.jpg");
 }
