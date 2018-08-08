@@ -1,4 +1,11 @@
 
+h1 {
+  font-family:lobster Two;
+  font-size: 4.5em;
+}
+p {
+  font-family:comfortaa;
+}
 .title {
       margin-left:15%;
       padding:20px;
