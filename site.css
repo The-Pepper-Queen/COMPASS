@@ -1,7 +1,7 @@
 
 /*Comfortaa|Hind|Lobster+Two|Open+Sans+Condensed*/
 
-}
+
 h1 {
   font-family:lobster Two;
   font-size: 4.5em;
@@ -62,8 +62,10 @@ ol, ul {
 }
 
 .bodytext {
-  margin-left:15%;
+  margin-left:25%;
+  margin-right:10%;
   padding:20px;
+  background-color: rgba(0,0,0,0.5)
 }
 
 .homepage {
@@ -71,10 +73,14 @@ ol, ul {
 }
 
 .stimpage {
-    
+
     background-color: lightblue;
     color: purple;
     text-align: center;
     font-family: 'Do Hyeon', sans-serif;
     font-size: 20px;
+}
+
+.homepage {
+  background-image: url("images/pebbles-801952_1280.jpg");
 }
