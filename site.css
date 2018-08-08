@@ -64,12 +64,11 @@ ol, ul {
 .bodytext {
   margin-left:25%;
   margin-right:10%;
-  padding:20px;
-  background-color: rgba(0,0,0,0.5)
 }
 
-.homepage {
-  background-image: url("images/pebbles-801952_1280.jpg");
+.homeparagraph {
+  padding:20px;
+  background-color: rgba(0,0,0,0.5)
 }
 
 .stimpage {
