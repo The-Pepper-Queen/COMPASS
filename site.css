@@ -1,7 +1,7 @@
 
 /*Comfortaa|Hind|Lobster+Two|Open+Sans+Condensed*/
 
-}
+
 h1 {
   font-family:lobster Two;
   font-size: 4.5em;
@@ -68,10 +68,14 @@ ol, ul {
 
 
 .stimpage {
-    
+
     background-color: lightblue;
     color: purple;
     text-align: center;
     font-family: 'Do Hyeon', sans-serif;
     font-size: 20px;
+}
+
+.homepage {
+  background-image: url("images/maxresdefault.jpg")
 }
