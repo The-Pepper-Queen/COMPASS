@@ -1,19 +1,22 @@
 
 /*Comfortaa|Hind|Lobster+Two|Open+Sans+Condensed*/
 
-}
+
 h1 {
   font-family:lobster Two;
   font-size: 4.5em;
   text-align: center;
+
 }
 
 h2, h3,{
     font-family:lobster Two;
 }
 
-p, {
+p {
   font-family:comfortaa;
+  font-size: 20px;
+
 }
 
 ol, ul {
@@ -68,10 +71,7 @@ ol, ul {
 
 
 .stimpage {
-    
-    background-color: lightblue;
-    color: purple;
-    text-align: center;
-    font-family: 'Do Hyeon', sans-serif;
-    font-size: 20px;
+    background: linear-gradient(to bottom right, #fdfce6 , #DEB887);
+    color: white;
+
 }
