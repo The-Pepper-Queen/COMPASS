@@ -1,8 +1,9 @@
 
-h1 {
+h1. h2, h3 {
   font-family:lobster Two;
   font-size: 4.5em;
 }
+
 p {
   font-family:comfortaa;
 }
