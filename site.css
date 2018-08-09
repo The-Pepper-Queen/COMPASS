@@ -38,6 +38,7 @@ ol, ul {
     background-color: #83b5bd;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
+    -webkit-box-shadow: 11px 10px 50px -6px rgba(0,0,0,0.75);
 }
 
 /* The navigation menu links */
@@ -64,12 +65,11 @@ ol, ul {
 .bodytext {
   margin-left:25%;
   margin-right:10%;
-  padding:20px;
-  background-color: rgba(0,0,0,0.5)
 }
 
-.homepage {
-  background-image: url("images/pebbles-801952_1280.jpg");
+.homeparagraph {
+  padding:20px;
+  background-color: rgba(0,0,0,0.5)
 }
 
 .stimpage {
