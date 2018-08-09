@@ -6,10 +6,13 @@ h1 {
   font-family:lobster Two;
   font-size: 4.5em;
   text-align: center;
+  margin-left:15%;
+  padding:20px;
 }
 
-h2, h3,{
-    font-family:lobster Two;
+h4 {
+  text-align: center;
+  margin-left:15%;
 }
 
 p {
@@ -20,11 +23,6 @@ ol, ul {
   font-family:hind;
 }
 
-.title {
-      margin-left:15%;
-      padding:20px;
-      text-align: center;
-    }
 
 /* Add a black background color to the top navigation */
 /* The sidebar menu */
@@ -108,6 +106,7 @@ div.gallery:hover {
 div.gallery img {
     width: 100%;
     height: auto;
+  }
 
 .homepage, .aboutpage {
   background-image: url("images/pebbles-801952_1280.jpg");
