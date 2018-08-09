@@ -6,7 +6,6 @@ h1 {
   font-family:lobster Two;
   font-size: 4.5em;
   text-align: center;
-
 }
 
 h2, h3,{
@@ -15,8 +14,6 @@ h2, h3,{
 
 p {
   font-family:comfortaa;
-  font-size: 20px;
-
 }
 
 ol, ul {
@@ -82,14 +79,8 @@ ol, ul {
 
     background: linear-gradient(to bottom right, #fdfce6 , #DEB887);
     color: white;
-
-
-    background-color: lightblue;
-    color: purple;
-    text-align: center;
 }
 
 .homepage, .aboutpage {
   background-image: url("images/pebbles-801952_1280.jpg");
-
 }
