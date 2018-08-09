@@ -69,22 +69,23 @@ ol, ul {
   margin-right:10%;
 }
 
-.homepage {
+
+.homeparagraph {
+
   padding:20px;
   background-color: rgba(0,0,0,0.5);
   color:	#fdfce6;
 }
 
 .stimpage {
+  background: linear-gradient(to bottom right, #FFDAB9, #fdfce6);
 
-    background: linear-gradient(to bottom right, #FFDAB9, #fdfce6);
-  
 }
 
-.homepage {
+.homepage, .aboutpage {
   background-image: url("images/pebbles-801952_1280.jpg");
 }
 
 .supportpage {
-  background-color: #d88282;
+  background: linear-gradient(to bottom right, #FFDAB9, #fdfce6);
 }
