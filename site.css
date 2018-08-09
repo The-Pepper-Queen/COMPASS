@@ -6,7 +6,6 @@ h1 {
   font-family:lobster Two;
   font-size: 4.5em;
   text-align: center;
-
 }
 
 h2, h3,{
@@ -15,8 +14,6 @@ h2, h3,{
 
 p {
   font-family:comfortaa;
-  font-size: 20px;
-
 }
 
 ol, ul {
@@ -41,6 +38,7 @@ ol, ul {
     background-color: #83b5bd;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
+    -webkit-box-shadow: 11px 10px 50px -6px rgba(0,0,0,0.75);
 }
 
 /* The navigation menu links */
@@ -48,8 +46,10 @@ ol, ul {
     padding: 10px;
     text-decoration: none;
     font-size: 25px;
+    text-align: center;
     color: #000000;
     display: block;
+    font-family:open sans condensed;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -67,25 +67,24 @@ ol, ul {
 .bodytext {
   margin-left:25%;
   margin-right:10%;
-  padding:20px;
-  background-color: rgba(0,0,0,0.5)
 }
 
 .homepage {
-  background-image: url("images/pebbles-801952_1280.jpg");
+  padding:20px;
+  background-color: rgba(0,0,0,0.5);
+  color:	#fdfce6;
 }
 
 .stimpage {
 
-
-    background: linear-gradient(to bottom right, #FFDAB9, #fdfce6 );
-    color: white;
-    text-align: center;
-    font-family: 'Do Hyeon', sans-serif;
-    font-size: 20px;
-
+    background: linear-gradient(to bottom right, #FFDAB9, #fdfce6);
+  
 }
 
 .homepage {
   background-image: url("images/pebbles-801952_1280.jpg");
+}
+
+.supportpage {
+  background-color: #d88282;
 }
