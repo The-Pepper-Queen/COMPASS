@@ -89,9 +89,9 @@ ol, ul {
 }
 
 .stimpage {
-    background-color: lightblue;
-    color: purple;
-    text-align: center;
+
+    background: linear-gradient(to bottom right, #FFDAB9, #fdfce6);
+
 }
 
 .homepage, .aboutpage {
