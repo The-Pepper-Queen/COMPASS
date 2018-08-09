@@ -88,11 +88,35 @@ ol, ul {
 }
 
 .stimpage {
-
     background: linear-gradient(to bottom right, #FFDAB9, #fdfce6);
-
 }
+
+.stimpage p {
+  text-align:center;
+}
+
+div.gallery {
+  margin: 5px;
+  float:left;
+  width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
 
 .homepage, .aboutpage {
   background-image: url("images/pebbles-801952_1280.jpg");
+}
+
+.supportpage {
+  background-image: url("images/plant_nature_bokeh_meadow_green_morning_yellow_dof-799810.jpg!d");
+ /*-webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;*/
+ background-size: contain;
 }
