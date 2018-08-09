@@ -64,6 +64,17 @@ ol, ul {
     .sidenav a {font-size: 18px;}
 }
 
+.image {
+  object-fit: cover;
+  width: 200px;
+  height: 250px;
+  display:inline-block;
+  float:left;
+  filter: drop-shadow( 0 0 30px #333);
+  padding:10px;
+
+}
+
 .bodytext {
   margin-left:25%;
   margin-right:10%;
@@ -73,6 +84,8 @@ ol, ul {
   padding:20px;
   background-color: rgba(0,0,0,0.5);
   color:	#fdfce6;
+  margin: 5px;
+  height:380px;
 }
 
 .stimpage {
