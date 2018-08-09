@@ -88,9 +88,8 @@ ol, ul {
 }
 
 .stimpage {
-
   background: linear-gradient(to bottom right, #FFDAB9, #fdfce6);
-
+}
 .stimpage p {
   text-align:center;
 }
@@ -99,15 +98,17 @@ div.gallery {
   margin: 5px;
   float:left;
   width: 180px;
+  transition: all .2s ease-in-out;
 }
 
 div.gallery:hover {
-    border: 1px solid #777;
+    transform: scale(2);
 }
+
 
 div.gallery img {
     width: 100%;
-    height: auto;
+    height: 120px;
   }
 
 .homepage, .aboutpage {
