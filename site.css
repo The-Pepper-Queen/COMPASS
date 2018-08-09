@@ -67,7 +67,7 @@ ol, ul {
 .image {
   object-fit: cover;
   width: 200px;
-  height: 250px;
+  height: 200px;
   display:inline-block;
   float:left;
   filter: drop-shadow( 0 0 30px #333);
@@ -85,7 +85,6 @@ ol, ul {
   background-color: rgba(0,0,0,0.5);
   color:	#fdfce6;
   margin: 5px;
-  height:380px;
 }
 
 .stimpage {
