@@ -78,7 +78,9 @@ ol, ul {
   margin-right:10%;
 }
 
+
 .homeparagraph {
+
   padding:20px;
   background-color: rgba(0,0,0,0.5);
   color:	#fdfce6;
@@ -86,8 +88,8 @@ ol, ul {
 }
 
 .stimpage {
-    background: linear-gradient(to bottom right, #FFDAB9, #fdfce6);
-}
+
+  background: linear-gradient(to bottom right, #FFDAB9, #fdfce6);
 
 .stimpage p {
   text-align:center;
@@ -113,9 +115,6 @@ div.gallery img {
 }
 
 .supportpage {
-  background-image: url("images/plant_nature_bokeh_meadow_green_morning_yellow_dof-799810.jpg!d");
- /*-webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;*/
- background-size: contain;
+  background-image: url("images/sunrise4.jpg");
+  background-size: cover;
 }
