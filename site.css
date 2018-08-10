@@ -4,7 +4,6 @@ h1 {
   font-family:lobster Two;
   font-size: 4.5em;
   text-align: center;
-  padding:20px;
 }
 
 h4 {
@@ -57,16 +56,20 @@ ol, ul {
     .sidenav a {font-size: 18px;}
 }
 
+.picofus {
+float:left;
+margin-right: 0.5em;
+ margin-top: 10px;
+}
+
 .image {
   object-fit: cover;
-  width: 200px;
-  height: 180px;
+  width: 250px;
+  height: 200px;
   transform: rotate(90deg);
-  display:inline-block;
-  float:left;
   filter: drop-shadow( 0 0 30px #333);
   padding:10px;
-
+  margin: 5px;
 }
 
 .bodytext {
@@ -80,6 +83,11 @@ ol, ul {
   color:	#fdfce6;
   margin: 5px;
 }
+
+.homeparagraph a, .homeparagraph a:hover {color:#80d4ff;}
+.homeparagraph a:visited {color:#ff8080;}
+
+
 
 .stimpage {
   background: linear-gradient(to bottom right, #FFDAB9, #fdfce6);
@@ -103,6 +111,7 @@ div.gallery img {
   }
   div.gallery img:hover {
       opacity: 1;
+      cursor: pointer;
   }
 
   /* The Modal (background) */
@@ -155,7 +164,7 @@ div.gallery img {
       font-weight: bold;
       transition: 0.3s;
   }
-  .close:hover,
+
 .close:focus {
     color: #bbb;
     text-decoration: none;
@@ -171,6 +180,7 @@ div.gallery img {
 
 .homepage, .aboutpage {
   background-image: url("images/pebbles-801952_1280.jpg");
+  background-size: cover;
 }
 
 .supportpage {
