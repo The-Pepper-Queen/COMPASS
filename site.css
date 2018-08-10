@@ -89,20 +89,20 @@ ol, ul {
 }
 
 div.gallery {
-  margin: 5px;
   float:left;
+  margin: 5px;
   width: 180px;
   transition: all .2s ease-in-out;
 }
 
-div.gallery:hover {
-    transform: scale(2);
-}
-
-
 div.gallery img {
     width: 100%;
     height: 120px;
+    transition: .5s ease;
+    opacity: 0.6;
+  }
+  div.gallery img:hover {
+      opacity: 1;
   }
 
   /* The Modal (background) */
@@ -125,6 +125,7 @@ div.gallery img {
       margin: auto;
       display: block;
       max-height: 500px;
+      max-width: 900px;
   }
 
   /* Add Animation */
