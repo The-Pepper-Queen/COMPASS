@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-
-
 <html class="stimpage">
   <link rel="stylesheet" href="site.css">
 <head>
+  <script src="stimpage.js"></script>
   <link rel="stylesheet" href="site.css">
   <link href="https://fonts.googleapis.com/css?family=Comfortaa|Hind|Lobster+Two|Open+Sans+Condensed:300" rel="stylesheet">
   <link rel="icon" href="images/compass-37840_1280.png">
@@ -22,33 +21,45 @@
     <h4><em>breathe.</em></h4>
     <h4><em>you are going to be okay.</em></h4>
   <!-- <img src="https://piskel-imgstore-b.appspot.com/img/e8b1cdd1-9a7e-11e8-8e6d-bd6f6b4e6e0d.gif" alt="longjelly"> -->
-      <div class = "gallery">
-        <img src="https://piskel-imgstore-b.appspot.com/img/71534528-9b4d-11e8-8b28-2554fb573b24.gif" alt="stimjelly">
-    </div>
-      <div class = "gallery">
-        <img src="https://piskel-imgstore-b.appspot.com/img/71534528-9b4d-11e8-8b28-2554fb573b24.gif" alt="stimjelly">
+
+  <div id="myModal" class="modal">
+    <span class="close" onclick="change()">&times;</span>
+    <img class="modal-content" id="img01">
+  </div>
+
+     <div class = "gallery">
+         <img src="Images/jelly.gif" alt="stimjelly" id ="jelly" onclick="displaygif('jelly');">
       </div>
-        <div class = "gallery">
-         <img src="https://www.duffthepsych.com/wp-content/uploads/2015/02/breathe-gif.gif" alt="shapes">
-      </div>
-        <div class = "gallery">
-      <img src="https://i2.wp.com/anxiety-gone.com/wp-content/uploads/2017/11/anigif_sub-buzz-29207-1478274968-3.gif?resize=600%2C600" alt="leaf">
+      <div class = "gallery">
+        <img src="https://www.duffthepsych.com/wp-content/uploads/2015/02/breathe-gif.gif" alt="shapes"  id ="shapes" onclick="displaygif('shapes');">
        </div>
-        <div class = "gallery">
-        <img src="https://img.buzzfeed.com/buzzfeed-static/static/2016-11/4/11/asset/buzzfeed-prod-fastlane03/anigif_sub-buzz-27992-1478274901-2.gif" alt="sky">
-      </div>
-        <div class = "gallery">
-         <img src="https://78.media.tumblr.com/69dde1cfdd5ff4eb3c8ba2c06a36124a/tumblr_oss2z8U0201ut0lfho1_500.gif" alt="123">
-      </div>
-        <div class = "gallery">
-        <img src="https://piskel-imgstore-b.appspot.com/img/71534528-9b4d-11e8-8b28-2554fb573b24.gif" alt="stimjelly">
-      </div>
-        <div class = "gallery">
-        <img src="https://piskel-imgstore-b.appspot.com/img/71534528-9b4d-11e8-8b28-2554fb573b24.gif" alt="stimjelly">
-      </div>
-        <div class = "gallery">
-          <img src="https://piskel-imgstore-b.appspot.com/img/71534528-9b4d-11e8-8b28-2554fb573b24.gif" alt="stimjelly">
-    </div>
+       <div class = "gallery">
+        <img src="https://i2.wp.com/anxiety-gone.com/wp-content/uploads/2017/11/anigif_sub-buzz-29207-1478274968-3.gif?resize=600%2C600" alt="leaf" id ="leaf" onclick="displaygif('leaf');">
+       </div>
+       <div class = "gallery">
+        <img src="https://78.media.tumblr.com/69dde1cfdd5ff4eb3c8ba2c06a36124a/tumblr_oss2z8U0201ut0lfho1_500.gif" alt="123" id ="123" onclick="displaygif('123');">
+       </div>
+       <div class = "gallery">
+         <img src="https://img.buzzfeed.com/buzzfeed-static/static/2016-11/4/11/asset/buzzfeed-prod-fastlane03/anigif_sub-buzz-27992-1478274901-2.gif" alt="sky" id ="sky" onclick="displaygif('sky');">
+          </div>
+       <div class = "gallery">
+         <img src="https://media.giphy.com/media/3ov9jUMnFlMqTQBmVy/source.gif" alt="spiral" id ="spiral" onclick="displaygif('spiral');">
+          </div>
+       <div class = "gallery">
+         <img src="https://78.media.tumblr.com/a6b8bd8b1bccb51a3bf6fb817022dfda/tumblr_inline_nlol353r5Z1rsrzsg.gif" alt="open" id ="open" onclick="displaygif('open');">
+         </div>
+       <div class = "gallery">
+         <img src="http://www.ufmcpueblo.com/wp-content/uploads/2017/04/square-breathing.gif" alt="square" id ="square" onclick="displaygif('square');">
+          </div>
+       <div class = "gallery">
+         <img src="https://img.buzzfeed.com/buzzfeed-static/static/2016-11/4/14/asset/buzzfeed-prod-fastlane01/anigif_sub-buzz-26451-1478283348-2.gif" alt="roll" id ="roll" onclick="displaygif('roll');">
+           </div>
+       <div class = "gallery">
+         <img src="https://cdn-images-1.medium.com/max/1600/1*GBAsAJWFO_dJYfDTuRDNmw.gif" alt="circle" id ="circle" onclick="displaygif('circle');">
+           </div>
+       <div class = "gallery">
+        </div>
+
   </div>
 </body>
 </html>
