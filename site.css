@@ -14,11 +14,10 @@ p {
   font-family:comfortaa;
 }
 
-ol, ul {
+ol, ul, figcaption {
   font-family:hind;
 }
-/* Add a black background color to the top navigation */
-/* The sidebar menu */
+
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
     width: 15%; /* Set the width of the sidebar */
@@ -84,8 +83,10 @@ margin-right: 0.5em;
   margin: 5px;
 }
 
-.homeparagraph a, .homeparagraph a:hover {color:#80d4ff;}
-.homeparagraph a:visited {color:#ff8080;}
+.homeparagraph a, .homeparagraph a:hover,.homeparagraph a:visited, .homeparagraph a:active {
+    color:white;
+  }
+
 
 
 
