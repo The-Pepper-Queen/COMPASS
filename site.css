@@ -53,6 +53,7 @@ ol, ul {
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
     background-color:	#d0dddf;
+
 }
 
 
@@ -65,7 +66,8 @@ ol, ul {
 .image {
   object-fit: cover;
   width: 200px;
-  height: 200px;
+  height: 180px;
+  transform: rotate(90deg);
   display:inline-block;
   float:left;
   filter: drop-shadow( 0 0 30px #333);
