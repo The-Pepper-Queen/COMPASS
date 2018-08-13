@@ -15,7 +15,7 @@ p {
   font-family:comfortaa;
 }
 
-ol, ul, {
+ol, ul {
   font-family:hind;
 }
 
@@ -178,12 +178,13 @@ div.gallery img {
   padding:10px;
   margin: 5px;
 }
-/* style for div around image in about pages */
+/* style for div with image and caption in about page */
 .picofus {
 float:left;
 margin-right: 0.5em;
  margin-top: 10px;
  text-align:center;
+ font-family: hind;
 }
 
 .homepage, .aboutpage {
