@@ -14,3 +14,7 @@ function displaygif(idname) {
    var modal = document.getElementById('myModal');
     modal.style.display = "none";
 }
+
+function differentimg(imageid, mouse) {
+  document.getElementById(imageid).src = mouse;
+}
