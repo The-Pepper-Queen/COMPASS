@@ -1,5 +1,6 @@
 
-/*Comfortaa|Hind|Lobster+Two|Open+Sans+Condensed*/
+/*Google API fonts: Comfortaa|Hind|Lobster+Two|Open+Sans+Condensed*/
+
 h1 {
   font-family:lobster Two;
   font-size: 4.5em;
@@ -14,10 +15,11 @@ p {
   font-family:comfortaa;
 }
 
-ol, ul, figcaption {
+ol, ul, {
   font-family:hind;
 }
 
+/* Style for the navigation menu sidebar */
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
     width: 15%; /* Set the width of the sidebar */
@@ -45,9 +47,7 @@ ol, ul, figcaption {
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
     background-color:	#d0dddf;
-
 }
-
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
@@ -55,27 +55,13 @@ ol, ul, figcaption {
     .sidenav a {font-size: 18px;}
 }
 
-.picofus {
-float:left;
-margin-right: 0.5em;
- margin-top: 10px;
-}
-
-.image {
-  object-fit: cover;
-  width: 250px;
-  height: 200px;
-  transform: rotate(90deg);
-  filter: drop-shadow( 0 0 30px #333);
-  padding:10px;
-  margin: 5px;
-}
-
+/* sets margin so Nav Bar doesn't cover text */
 .bodytext {
   margin-left:25%;
   margin-right:10%;
 }
 
+/* style for div holding general text */
 .homeparagraph {
   padding:20px;
   background-color: rgba(0,0,0,0.5);
@@ -83,22 +69,23 @@ margin-right: 0.5em;
   margin: 5px;
 }
 
+/* style for links in general text */
 .homeparagraph a, .homeparagraph a:hover,.homeparagraph a:visited, .homeparagraph a:active {
     color:white;
   }
 
-
-
-
+/* The stimpage styles */
 .stimpage {
-  background: linear-gradient(to bottom right, #FFDAB9, #fdfce6);
+  background: linear-gradient(to bottom right, #f9dec5, #ffc591);
   color: #d88282;
 }
+
 .stimpage h1, h4 {color:Black;}
 .stimpage p {
   text-align:center;
 }
 
+/* style for formatting the stim gallery */
 div.gallery {
   float:left;
   margin: 5px;
@@ -106,16 +93,18 @@ div.gallery {
   transition: all .2s ease-in-out;
 }
 
+/* formatting images in stim gallery */
 div.gallery img {
     width: 100%;
     height: 120px;
     transition: .5s ease;
   }
+
   div.gallery img:hover {
       cursor: pointer;
   }
 
-  /* The Modal (background) */
+  /* The Modal (background) for stim gallery */
   .modal {
       display: none; /* Hidden by default */
       position: fixed; /* Stay in place */
@@ -155,7 +144,7 @@ div.gallery img {
       to {transform:scale(1)}
   }
 
-  /* The Close Button */
+  /* The Close Button for modal */
   .close {
       position: absolute;
       top: 15px;
@@ -177,6 +166,24 @@ div.gallery img {
     .modal-content {
         width: 100%;
     }
+}
+
+/* style for images in about page */
+.image {
+  object-fit: cover;
+  width: 250px;
+  height: 200px;
+  transform: rotate(90deg);
+  filter: drop-shadow( 0 0 30px #333);
+  padding:10px;
+  margin: 5px;
+}
+/* style for div around image in about pages */
+.picofus {
+float:left;
+margin-right: 0.5em;
+ margin-top: 10px;
+ text-align:center;
 }
 
 .homepage, .aboutpage {
