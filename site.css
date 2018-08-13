@@ -190,3 +190,7 @@ div.gallery img {
   background-image: url("images/sunrise4.jpg");
   background-size: cover;
 }
+
+.Infopage {
+  background: linear-gradient(to bottom right, #d88282, #CD5C5C);
+}
