@@ -92,7 +92,9 @@ margin-right: 0.5em;
 
 .stimpage {
   background: linear-gradient(to bottom right, #FFDAB9, #fdfce6);
+  color: #d88282;
 }
+.stimpage h1, h4 {color:Black;}
 .stimpage p {
   text-align:center;
 }
