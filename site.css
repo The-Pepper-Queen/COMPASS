@@ -32,6 +32,9 @@ ol, ul {
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
     -webkit-box-shadow: 11px 10px 50px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 11px 10px 50px -6px rgba(0,0,0,0.75);
+    box-shadow: 11px 10px 50px -6px rgba(0,0,0,0.75);
+Copy Text
 }
 
 /* The navigation menu links */
