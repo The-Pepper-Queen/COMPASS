@@ -182,12 +182,12 @@ div.gallery img {
 }
 
 .homepage, .aboutpage {
-  background-image: url("images/pebbles-801952_1280.jpg");
+  background-image: url("images/backgrounds/pebbles-801952_1280.jpg");
   background-size: cover;
 }
 
 .supportpage {
-  background-image: url("images/sunrise4.jpg");
+  background-image: url("images/backgrounds/sunrise4.jpg");
   background-size: cover;
 }
 
