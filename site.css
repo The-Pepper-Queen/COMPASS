@@ -56,6 +56,7 @@ ol, ul {
     .sidenav a {font-size: 18px;}
 }
 
+
 /* sets margin so Nav Bar doesn't cover text */
 .bodytext {
   margin-left:25%;
@@ -214,4 +215,8 @@ margin-right: 0.5em;
 
 .Infopage {
   background: linear-gradient(to bottom right, #d88282, #CD5C5C);
+}
+
+.video {
+  float: right;
 }
