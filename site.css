@@ -23,6 +23,7 @@ ol, ul {
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
     width: 15%; /* Set the width of the sidebar */
+    margin-left:1%;
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -169,15 +170,27 @@ div.gallery img {
 }
 
 /* style for images in about page */
-.image {
-  object-fit: cover;
+img.image {
+  object-fit: contain;
   width: 250px;
   height: 200px;
+  max-height: 100%;
+  max-width: 100%;
   transform: rotate(90deg);
   filter: drop-shadow( 0 0 30px #333);
   padding:10px;
   margin: 5px;
+  display: inline-block;
+  vertical-align: middle;
+
 }
+/* helps image shrink when screen size is too small */
+.trick {
+  display: inline-block;
+  vertical-align: middle;
+  height: 100px;
+}
+
 /* style for div with image and caption in about page */
 .picofus {
 float:left;
@@ -185,6 +198,7 @@ margin-right: 0.5em;
  margin-top: 10px;
  text-align:center;
  font-family: hind;
+
 }
 
 .homepage, .aboutpage {
