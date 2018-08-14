@@ -1,13 +1,6 @@
 # Compass
+Compass is a site designed to give you resources to help with your anxiety, whether that’s by timing your breathing in the stim page or getting tips from the resources page.
 
-Schedule:
+We decided to make Compass as a final project for the Girls Who Code summer immersion program because so many people need help coping with their anxiety.
 
-•	Figure out material for the site
-o	Figure out what’s on homepage
-o	Research anxiety tips
-o	Research volunteer oppty
-o	Research help organizations
-o	Make animation
-
-•	Write html
-•	Style the site
+Throughout our final project, we learned important skills, including communication and teamwork.
