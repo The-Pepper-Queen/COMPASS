@@ -210,7 +210,9 @@ Copy Text
   background-image: url("images/backgrounds/pebbles-801952_1280.jpg");
   background-size: cover;
 }
-
+    .commentpage p {
+      color: 	#779598;
+    }
 
     #qbutton {
       color:white;
@@ -218,13 +220,19 @@ Copy Text
       background-color:	#83b5bd;
       padding:3%;
       border: 	#b9e8ec 1px solid;
-      margin-left:auto;
-      margin-right: auto;
+      margin-top:10px;
     }
 
 table {
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+}
+
+.fillin {
+  background-color: white;
+  border: 	#b9e8ec 6px outset;
+  font-family:hind;
 }
 
 .supportpage, .commentpage {
