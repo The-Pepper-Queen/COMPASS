@@ -211,7 +211,7 @@ margin-right: 0.5em;
   background-size: cover;
 }
 
-.supportpage {
+.supportpage, .commentpage {
   background-image: url("images/backgrounds/sunrise4.jpg");
   background-size: cover;
 }
