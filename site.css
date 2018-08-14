@@ -199,3 +199,9 @@ div.gallery img {
 .video {
   float: right;
 }
+
+.quote {
+  float: right;
+  margin-left: 5%;
+  margin-top: 4%
+}
