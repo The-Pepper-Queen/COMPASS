@@ -209,7 +209,7 @@ Copy Text
       }
 /* code for backgrounds of various pages */
 .homepage, .aboutpage {
-  background-image: url("images/backgrounds/pebbles-801952_1280.jpg");
+  background-image: url("Images/backgrounds/pebbles-801952_1280.jpg");
   background-size: cover;
 }
     .commentpage p {
