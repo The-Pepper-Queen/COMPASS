@@ -1,4 +1,4 @@
-
+// Javascript for the stim page
 
 //this displays the image in the modal
 function displaygif(idname) {

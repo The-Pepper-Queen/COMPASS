@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html class="stimpage">
-  <link rel="stylesheet" href="site.css">
+<!-- the stim page -->
 <head>
   <script src="stimpage.js"></script>
   <link rel="stylesheet" href="site.css">
@@ -10,6 +10,7 @@
 </head>
 
 <body>
+  <!-- The navigation sidebar -->
   <div class="sidenav">
     <a href="homepage.html">Home</a>
     <a href="Infopage.html">Learn more</a>
@@ -17,17 +18,19 @@
     <a href="stimpage.html"> Stims</a>
     <a href="aboutpage.html">About</a>
   </div>
-
+<!-- the main text on the page -->
   <div class = "bodytext">
     <h1>Stims</h1>
     <h4><em>breathe.</em></h4>
     <h4><em>you are going to be okay.</em></h4>
 
+<!-- The modal effect when you click on an image in the gallery -->
     <div id="myModal" class="modal">
       <span class="close" onclick="change()">&times;</span>
       <img class="modal-content" id="img01">
     </div>
 
+<!-- the gallery of stim images -->
      <div class = "gallery">
          <img src="Images/stills/jellyfish_still.gif" alt="stimjelly" id ="jelly" onclick="displaygif('jelly');" onmouseover="differentimg('jelly',  'Images/gifs/jellyfish.gif')"; onmouseout="differentimg('jelly','Images/stills/jellyfish_still.gif')";>
          <figcaption>Jellyfish</figcaption>
@@ -87,7 +90,7 @@
          <img src="images/stills/jellyfish2_still.gif" alt="jelly2"  id ="jelly2" onclick="displaygif('jelly2');"  onmouseover ="differentimg('jelly2','images/gifs/jellyfish2.gif')"; onmouseout = "differentimg('jelly2', 'images/stills/jellyfish2_still.gif')";>
          <figcaption>Jellyfish stim 2</figcaption>
        </div>
-       
+
   </div>
 
 </body>
