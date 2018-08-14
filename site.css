@@ -85,130 +85,146 @@ Copy Text
   color: #d88282;
 }
 
-.stimpage h1, h4 {color:Black;}
-.stimpage p {
-  text-align:center;
-  font-family: hind;
-}
+      .stimpage h1, h4 {color:Black;}
+      .stimpage p {
+        text-align:center;
+        font-family: hind;
+      }
 
-/* style for formatting the stim gallery */
-div.gallery {
-  float:left;
-  margin: 5px;
-  width: 180px;
-  transition: all .2s ease-in-out;
-}
+      /* style for formatting the stim gallery */
+      div.gallery {
+        float:left;
+        margin: 5px;
+        width: 180px;
+        transition: all .2s ease-in-out;
+      }
 
-/* formatting images in stim gallery */
-div.gallery img {
-    width: 100%;
-    height: 120px;
-    transition: .5s ease;
-  }
+      /* formatting images in stim gallery */
+      div.gallery img {
+          width: 100%;
+          height: 120px;
+          transition: .5s ease;
+        }
 
-  div.gallery img:hover {
-      cursor: pointer;
-  }
+        div.gallery img:hover {
+            cursor: pointer;
+        }
 
-  /* The Modal (background) for stim gallery */
-  .modal {
-      display: none; /* Hidden by default */
-      position: fixed; /* Stay in place */
-      z-index: 1; /* Sit on top */
-      padding-top: 100px; /* Location of the box */
-      left: 0;
-      top: 0;
-      width: 100%; /* Full width */
-      height: 100%; /* Full height */
-      overflow: auto; /* Enable scroll if needed */
-      background-color: rgb(0,0,0); /* Fallback color */
-      background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-  }
+        /* The Modal (background) for stim gallery */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            padding-top: 100px; /* Location of the box */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+        }
 
-  /* Modal Content (image) */
-  .modal-content {
-      margin: auto;
-      display: block;
-      max-height: 500px;
-      max-width: 900px;
-  }
+        /* Modal Content (image) */
+        .modal-content {
+            margin: auto;
+            display: block;
+            max-height: 500px;
+            max-width: 900px;
+        }
 
-  /* Add Animation */
-  .modal-content, #caption {
-      -webkit-animation-name: zoom;
-      -webkit-animation-duration: 0.6s;
-      animation-name: zoom;
-      animation-duration: 0.6s;
-  }
-  @-webkit-keyframes zoom {
-      from {-webkit-transform:scale(0)}
-      to {-webkit-transform:scale(1)}
-  }
+        /* Add Animation */
+        .modal-content, #caption {
+            -webkit-animation-name: zoom;
+            -webkit-animation-duration: 0.6s;
+            animation-name: zoom;
+            animation-duration: 0.6s;
+        }
+        @-webkit-keyframes zoom {
+            from {-webkit-transform:scale(0)}
+            to {-webkit-transform:scale(1)}
+        }
 
-  @keyframes zoom {
-      from {transform:scale(0)}
-      to {transform:scale(1)}
-  }
+        @keyframes zoom {
+            from {transform:scale(0)}
+            to {transform:scale(1)}
+        }
 
-  /* The Close Button for modal */
-  .close {
-      position: absolute;
-      top: 15px;
-      right: 35px;
-      color: #f1f1f1;
-      font-size: 40px;
-      font-weight: bold;
-      transition: 0.3s;
-  }
+        /* The Close Button for modal */
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
 
-.close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-}
+      .close:focus {
+          color: #bbb;
+          text-decoration: none;
+          cursor: pointer;
+      }
 
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-    .modal-content {
-        width: 100%;
-    }
-}
+      /* 100% Image Width on Smaller Screens */
+      @media only screen and (max-width: 700px){
+          .modal-content {
+              width: 100%;
+          }
+      }
 
-/* style for images in about page */
-img.image {
-  object-fit: contain;
-  width: 250px;
-  height: 200px;
-  max-height: 100%;
-  max-width: 100%;
-  transform: rotate(90deg);
-  filter: drop-shadow( 0 0 30px #333);
-  padding:10px;
-  margin: 5px;
-  display: inline-block;
-  vertical-align: middle;
+      /* style for images in about page */
+      img.image {
+        object-fit: contain;
+        width: 250px;
+        height: 200px;
+        max-height: 100%;
+        max-width: 100%;
+        transform: rotate(90deg);
+        filter: drop-shadow( 0 0 30px #333);
+        padding:10px;
+        margin: 5px;
+        display: inline-block;
+        vertical-align: middle;
 
-}
-/* helps image shrink when screen size is too small */
-.trick {
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-}
+      }
+      /* helps image shrink when screen size is too small */
+      .trick {
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+      }
 
-/* style for div with image and caption in about page */
-.picofus {
-float:left;
-margin-right: 0.5em;
- margin-top: 10px;
- text-align:center;
- font-family: hind;
+      /* style for div with image and caption in about page */
+      .picofus {
+      float:left;
+      margin-right: 0.5em;
+       margin-top: 10px;
+       text-align:center;
+       font-family: hind;
 
-}
+      }
 /* code for backgrounds of various pages */
 .homepage, .aboutpage {
   background-image: url("images/backgrounds/pebbles-801952_1280.jpg");
   background-size: cover;
+}
+
+
+    #qbutton {
+      color:white;
+      font-family:open sans condensed;
+      background-color:	#83b5bd;
+      padding:3%;
+      border: 	#b9e8ec 1px solid;
+      margin-left:auto;
+      margin-right: auto;
+    }
+
+table {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .supportpage, .commentpage {
@@ -220,30 +236,21 @@ margin-right: 0.5em;
   background: linear-gradient(to bottom right,#d88282, #CD5C5C);
 }
 
-  /* code for the video on the in=fo page */
-  .vid {
-   width:420px;
-   height:315px;
-  }
-  .video {
-    float: right;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left:5%;
-    margin-right: 5%;
-  }
+    /* code for the video on the in=fo page */
+    .vid {
+     width:420px;
+     height:315px;
+    }
+    .video {
+      float: right;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      margin-left:5%;
+      margin-right: 5%;
+    }
 
-  .quote {
-    float: right;
-    margin-left: 5%;
-    margin-top: 4%
-  }
-
-#qbutton {
-  color:white;
-  font-family:open sans condensed;
-  background-color:	#83b5bd;
-  padding:3%;
-  border: 	#b9e8ec 1px solid;
-
-}
+    .quote {
+      float: right;
+      margin-left: 5%;
+      margin-top: 4%
+    }
