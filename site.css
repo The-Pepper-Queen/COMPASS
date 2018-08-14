@@ -211,6 +211,7 @@ Copy Text
   background-size: cover;
 }
 
+<<<<<<< HEAD
     #qbutton {
       color:white;
       font-family:open sans condensed;
@@ -225,7 +226,8 @@ table {
   margin-left: auto;
   margin-right: auto;
 }
-.supportpage {
+
+.supportpage, .commentpage {
   background-image: url("images/backgrounds/sunrise4.jpg");
   background-size: cover;
 }
