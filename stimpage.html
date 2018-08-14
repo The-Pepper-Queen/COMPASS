@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html class="stimpage">
-  <link rel="stylesheet" href="site.css">
+<!-- the stim page -->
 <head>
   <script src="stimpage.js"></script>
   <link rel="stylesheet" href="site.css">
   <link href="https://fonts.googleapis.com/css?family=Comfortaa|Hind|Lobster+Two|Open+Sans+Condensed:300" rel="stylesheet">
   <link rel="icon" href="images/compass-37840_1280.png">
-  <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
+        <title>Compass Stims</title>
 </head>
 
 <body>
+  <!-- The navigation sidebar -->
   <div class="sidenav">
     <a href="homepage.html">Home</a>
     <a href="Infopage.html">Learn more</a>
@@ -18,61 +19,79 @@
     <a href="commentspage.html"> Comments</a>
     <a href="aboutpage.html">About</a>
   </div>
+<!-- the main text on the page -->
   <div class = "bodytext">
     <h1>Stims</h1>
     <h4><em>breathe.</em></h4>
     <h4><em>you are going to be okay.</em></h4>
-  <!-- <img src="https://piskel-imgstore-b.appspot.com/img/e8b1cdd1-9a7e-11e8-8e6d-bd6f6b4e6e0d.gif" alt="longjelly"> -->
 
+<!-- The modal effect when you click on an image in the gallery -->
     <div id="myModal" class="modal">
       <span class="close" onclick="change()">&times;</span>
       <img class="modal-content" id="img01">
     </div>
 
+<!-- the gallery of stim images -->
      <div class = "gallery">
          <img src="Images/stills/jellyfish_still.gif" alt="stimjelly" id ="jelly" onclick="displaygif('jelly');" onmouseover="differentimg('jelly',  'Images/gifs/jellyfish.gif')"; onmouseout="differentimg('jelly','Images/stills/jellyfish_still.gif')";>
          <figcaption>Jellyfish</figcaption>
       </div>
+
       <div class = "gallery">
         <img src="Images/stills/shapes_still.gif" alt="shapes"  id ="shapes" onclick="displaygif('shapes')"; onmouseover ="differentimg('shapes','Images/gifs/shapes.gif')"; onmouseout = "differentimg('shapes', 'Images/stills/shapes_still.gif')">
         <figcaption>Shapes breathing exercise</figcaption>
       </div>
+
        <div class = "gallery">
         <img src="images/stills/leaf_still.gif" alt="leaf" id ="leaf" onclick="displaygif('leaf');"  onmouseover ="differentimg('leaf','Images/gifs/leaf.gif')"; onmouseout = "differentimg('leaf','images/stills/leaf_still.gif')";>
          <figcaption>Leaf breathing exercise</figcaption>
        </div>
+
        <div class = "gallery">
         <img src="images/stills/123_still.gif" alt="123" id ="123" onclick="displaygif('123');"  onmouseover ="differentimg('123', 'images/gifs/123.gif')"; onmouseout = "differentimg('123','images/stills/123_still.gif')";>
          <figcaption>Breathing counter</figcaption>
        </div>
+
        <div class = "gallery">
          <img src="images/stills/sky_still.gif" alt="sky" id ="sky" onclick="displaygif('sky');"  onmouseover ="differentimg('sky','images/gifs/sky.gif')"; onmouseout = "differentimg('sky','images/stills/sky_still.gif')";>
          <figcaption>Sky stim</figcaption>
           </div>
+
        <div class = "gallery">
          <img src="Images/stills/spiral_still.gif" alt="spiral" id ="spiral" onclick="displaygif('spiral');"  onmouseover ="differentimg('spiral','images/gifs/spiral.gif')"; onmouseout = "differentimg('spiral','images/stills/spiral_still.gif')";>
          <figcaption>Spiral stim</figcaption>
           </div>
+
        <div class = "gallery">
          <img src="images/stills/open_still.gif" alt="open" id ="open" onclick="displaygif('open');"  onmouseover ="differentimg('open', 'images/gifs/open.gif')"; onmouseout = "differentimg('open','images/stills/open_still.gif')";>
          <figcaption>Rolling spiral stim</figcaption>
          </div>
+
        <div class = "gallery">
          <img src="images/stills/square_still.gif" alt="square" id ="square" onclick="displaygif('square');"  onmouseover ="differentimg('square','images/gifs/square.gif')"; onmouseout = "differentimg('square','images/stills/square_still.gif')";>
          <figcaption>Square stim</figcaption>
           </div>
+
        <div class = "gallery">
          <img src="images/stills/roll_still.gif" alt="roll" id ="roll" onclick="displaygif('roll');"  onmouseover ="differentimg('roll','images/gifs/roll.gif')"; onmouseout = "differentimg('roll', 'images/stills/roll_still.gif')";>
          <figcaption>Rolling stim</figcaption>
            </div>
+
        <div class = "gallery">
          <img src="images/stills/circle_still.gif" alt="circle" id ="circle" onclick="displaygif('circle');"  onmouseover ="differentimg('circle', 'images/gifs/circle.gif')"; onmouseout = "differentimg('circle', 'images/stills/circle_still.gif')";>
          <figcaption>Circle breathing stim</figcaption>
            </div>
+
        <div class = "gallery">
          <img src="images/stills/balloon_still.gif" alt="balloon"  id ="balloon" onclick="displaygif('balloon');"  onmouseover ="differentimg('balloon','images/gifs/balloon.gif')"; onmouseout = "differentimg('balloon', 'images/stills/balloon_still.gif')";>
          <figcaption>Balloon breathing stim</figcaption>
        </div>
+
+       <div class = "gallery">
+         <img src="images/stills/jellyfish2_still.gif" alt="jelly2"  id ="jelly2" onclick="displaygif('jelly2');"  onmouseover ="differentimg('jelly2','images/gifs/jellyfish2.gif')"; onmouseout = "differentimg('jelly2', 'images/stills/jellyfish2_still.gif')";>
+         <figcaption>Jellyfish stim 2</figcaption>
+       </div>
+
   </div>
 
 </body>

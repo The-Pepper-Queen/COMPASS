@@ -1,5 +1,6 @@
 
-/*Comfortaa|Hind|Lobster+Two|Open+Sans+Condensed*/
+/*Google API fonts: Comfortaa|Hind|Lobster+Two|Open+Sans+Condensed*/
+
 h1 {
   font-family:lobster Two;
   font-size: 4.5em;
@@ -14,10 +15,11 @@ p {
   font-family:comfortaa;
 }
 
-ol, ul, figcaption {
+ol, ul {
   font-family:hind;
 }
 
+/* Style for the navigation menu sidebar */
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
     width: 15%; /* Set the width of the sidebar */
@@ -29,6 +31,9 @@ ol, ul, figcaption {
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
     -webkit-box-shadow: 11px 10px 50px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 11px 10px 50px -6px rgba(0,0,0,0.75);
+    box-shadow: 11px 10px 50px -6px rgba(0,0,0,0.75);
+Copy Text
 }
 
 /* The navigation menu links */
@@ -37,7 +42,7 @@ ol, ul, figcaption {
     text-decoration: none;
     font-size: 25px;
     text-align: center;
-    color: #000000;
+    color: #EEEEEE;
     display: block;
     font-family:open sans condensed;
 }
@@ -45,9 +50,7 @@ ol, ul, figcaption {
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
     background-color:	#d0dddf;
-
 }
-
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
@@ -55,51 +58,39 @@ ol, ul, figcaption {
     .sidenav a {font-size: 18px;}
 }
 
-.picofus {
-float:left;
-margin-right: 0.5em;
- margin-top: 10px;
-}
 
-
-.image {
-  object-fit: cover;
-  width: 250px;
-  height: 200px;
-  transform: rotate(90deg);
-  filter: drop-shadow( 0 0 30px #333);
-  padding:10px;
-  margin: 5px;
-}
-
+/* sets margin so Nav Bar doesn't cover text */
 .bodytext {
   margin-left:25%;
   margin-right:10%;
 }
 
+/* style for div holding general text */
 .homeparagraph {
   padding:20px;
   background-color: rgba(0,0,0,0.5);
   color:	#fdfce6;
   margin: 5px;
+  overflow:auto;
 }
 
+/* style for links in general text */
 .homeparagraph a, .homeparagraph a:hover,.homeparagraph a:visited, .homeparagraph a:active {
     color:white;
   }
 
-
-
-
+/* The stimpage styles */
 .stimpage {
-  background: linear-gradient(to bottom right, #FFDAB9, #fdfce6);
+  background: linear-gradient(to bottom right, #f9dec5, #ffc591);
   color: #d88282;
 }
+
 .stimpage h1, h4 {color:Black;}
 .stimpage p {
   text-align:center;
 }
 
+/* style for formatting the stim gallery */
 div.gallery {
   float:left;
   margin: 5px;
@@ -107,18 +98,18 @@ div.gallery {
   transition: all .2s ease-in-out;
 }
 
+/* formatting images in stim gallery */
 div.gallery img {
     width: 100%;
     height: 120px;
     transition: .5s ease;
-    opacity: 0.6;
   }
+
   div.gallery img:hover {
-      opacity: 1;
       cursor: pointer;
   }
 
-  /* The Modal (background) */
+  /* The Modal (background) for stim gallery */
   .modal {
       display: none; /* Hidden by default */
       position: fixed; /* Stay in place */
@@ -158,7 +149,7 @@ div.gallery img {
       to {transform:scale(1)}
   }
 
-  /* The Close Button */
+  /* The Close Button for modal */
   .close {
       position: absolute;
       top: 15px;
@@ -182,6 +173,38 @@ div.gallery img {
     }
 }
 
+/* style for images in about page */
+img.image {
+  object-fit: contain;
+  width: 250px;
+  height: 200px;
+  max-height: 100%;
+  max-width: 100%;
+  transform: rotate(90deg);
+  filter: drop-shadow( 0 0 30px #333);
+  padding:10px;
+  margin: 5px;
+  display: inline-block;
+  vertical-align: middle;
+
+}
+/* helps image shrink when screen size is too small */
+.trick {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+/* style for div with image and caption in about page */
+.picofus {
+float:left;
+margin-right: 0.5em;
+ margin-top: 10px;
+ text-align:center;
+ font-family: hind;
+
+}
+/* code for backgrounds of various pages */
 .homepage, .aboutpage {
   background-image: url("images/backgrounds/pebbles-801952_1280.jpg");
   background-size: cover;
@@ -196,8 +219,17 @@ div.gallery img {
   background: linear-gradient(to bottom right,#d88282, #CD5C5C);
 }
 
+/* code for the video on the in=fo page */
+.vid {
+  width:420px;
+ height:315px;
+}
 .video {
   float: right;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left:5%;
+  margin-right: 5%;
 }
 
 .quote {
