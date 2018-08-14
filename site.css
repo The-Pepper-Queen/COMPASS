@@ -23,7 +23,6 @@ ol, ul {
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
     width: 15%; /* Set the width of the sidebar */
-    margin-left:1%;
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -192,8 +191,8 @@ img.image {
 /* helps image shrink when screen size is too small */
 .trick {
   display: inline-block;
+  height: 100%;
   vertical-align: middle;
-  height: 100px;
 }
 
 /* style for div with image and caption in about page */
@@ -205,7 +204,7 @@ margin-right: 0.5em;
  font-family: hind;
 
 }
-
+/* code for backgrounds of various pages */
 .homepage, .aboutpage {
   background-image: url("images/backgrounds/pebbles-801952_1280.jpg");
   background-size: cover;
@@ -220,6 +219,15 @@ margin-right: 0.5em;
   background: linear-gradient(to bottom right, #d88282, #CD5C5C);
 }
 
+/* code for the video on the in=fo page */
+.vid {
+  width:420px;
+ height:315px;
+}
 .video {
   float: right;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left:5%;
+  margin-right: 5%;
 }
