@@ -1,6 +1,8 @@
 
 /*Google API fonts: Comfortaa|Hind|Lobster+Two|Open+Sans+Condensed*/
-
+body {
+  margin: 0px 0px 0px 0px;
+}
 h1 {
   font-family:lobster Two;
   font-size: 4.5em;
@@ -235,6 +237,17 @@ table {
   font-family:hind;
 }
 
+.header {
+  text-align:center;
+  overflow: hidden;
+  background-color:	black;
+  margin-left:15%;
+}
+.header p {
+    color:#d88282;
+    font-family:hind;
+    font-size:1.2em;
+}
 .supportpage, .commentpage {
   background-image: url("images/backgrounds/sunrise4.jpg");
   background-size: cover;
