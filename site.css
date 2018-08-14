@@ -217,7 +217,7 @@ margin-right: 0.5em;
 }
 
 .Infopage {
-  background: linear-gradient(to bottom right, #d88282, #CD5C5C);
+  background: linear-gradient(to bottom right,#d88282, #CD5C5C);
 }
 
 /* code for the video on the in=fo page */
@@ -231,4 +231,10 @@ margin-right: 0.5em;
   margin-bottom: 5%;
   margin-left:5%;
   margin-right: 5%;
+}
+
+.quote {
+  float: right;
+  margin-left: 5%;
+  margin-top: 4%
 }
