@@ -88,6 +88,7 @@ Copy Text
 .stimpage h1, h4 {color:Black;}
 .stimpage p {
   text-align:center;
+  font-family: hind;
 }
 
 /* style for formatting the stim gallery */
