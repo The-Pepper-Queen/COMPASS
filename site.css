@@ -209,7 +209,7 @@ Copy Text
       }
 /* code for backgrounds of various pages */
 .homepage, .aboutpage {
-  background-image: url("images/backgrounds/pebbles-801952_1280.jpg");
+  background-image: url("Images/backgrounds/pebbles-801952_1280.jpg");
   background-size: cover;
 }
     .commentpage p {
@@ -249,7 +249,7 @@ table {
     font-size:1.2em;
 }
 .supportpage, .commentpage {
-  background-image: url("images/backgrounds/sunrise4.jpg");
+  background-image: url("Images/backgrounds/sunrise4.jpg");
   background-size: cover;
 }
 
